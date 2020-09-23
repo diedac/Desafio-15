@@ -7,6 +7,7 @@ h2 {
     font-size: $font-size;
     font-family: $font-family;
     font-weight: bold;
+    max-width: 100%;
 }
 h3 {
     font-family: $font-family ;
@@ -44,11 +45,9 @@ section {
         background-color: #e9f6ec;
     }
     .services__home-title {
-        height: 200px;
         text-align: center;
         width: 100%;
         max-width: 100%;
-        font-size: 3rem;
     }
     .services__home-text {
         font-size: 2.5rem;
@@ -329,6 +328,9 @@ section {
 }
 
 @media only screen and (max-width: 576px) {
+    .services__home-title {
+        font-size: 3rem;
+    }
     .projects, .header__wrapp {
         padding: 3rem auto;
     }
